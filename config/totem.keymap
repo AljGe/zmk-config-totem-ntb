@@ -92,12 +92,12 @@
         };
 
         umlaut_ae {
-            bindings = <&kp RA(P)>;
+            bindings = <&kp RA(Q)>;
             key-positions = <10 17>;
         };
 
         umlaut_oe {
-            bindings = <&kp RA(L)>;
+            bindings = <&kp RA(P)>;
             key-positions = <17 19>;
         };
     };
