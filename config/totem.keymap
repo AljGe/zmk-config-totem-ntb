@@ -194,6 +194,16 @@
         };
     };
 
+    macros {
+        nav_on: nav_on {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press>, <&mo 1 &kp F13>;
+
+            label = "NAV_ON";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
